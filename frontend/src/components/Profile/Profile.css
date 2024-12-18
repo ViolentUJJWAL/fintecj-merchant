@@ -1,0 +1,65 @@
+.profile{
+    width:20%;
+    /* background-color: red ; */
+}
+.profile:hover .profile-details{
+    display: block;
+}
+.profile-upper{
+    display: flex;
+    width: 105%;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    
+    margin-top: 3%;
+}
+.profile-img{
+    width: 25%;
+}
+.profile-img>img{
+    width: 100%;
+}
+.profileinfo{
+    color: #fff;
+}
+.profileinfo p{
+    color: #ffffffaf;
+}
+
+.profile-details{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 10%;
+    height: 18vh;
+    position: absolute;
+    right: 13%;
+    margin-top: -10px;
+    display: none;
+}
+.profile-details>span{
+    width: 100%;
+    display: block;
+    margin-top: 10%;
+}
+.profile-details>span>a{
+    width: 100%;
+    color: #000;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    display: flex;
+    background-color: rebeccapurpleaw;
+    padding: 5% 5%;
+}
+.profile-details>span>a:hover{
+    background-color: #00BAF2;
+   
+}
+.profile-details>span>a>span{
+    font-size: 18px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
