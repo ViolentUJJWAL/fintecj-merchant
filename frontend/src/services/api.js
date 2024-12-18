@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an Axios instance with base URL
 const api = axios.create({
-  baseURL: "https://fintecj-merchant.onrender.com" || "http://localhost:5000/api",
+  baseURL: "https://fintecj-merchant.onrender.com/api" || "http://localhost:5000/api",
   withCredentials: true,
 });
 

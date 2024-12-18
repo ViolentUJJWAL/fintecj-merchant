@@ -45,7 +45,9 @@ app.use("/api/dashboard", statisticsRoutes)
 app.use("/api/customer", customerRoutes)
 app.use("/api/wallet", walletTransactionRoutres)
 
-
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
+});
 
 
 // Starting the server
